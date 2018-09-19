@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/gergohalmi/Desktop/git/cpp_cmake_p0/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++    -g   -o CMakeFiles/hello_vsc.dir/hello_vsc.cpp.o -c /Users/gergohalmi/Desktop/git/cpp_cmake_p0/hello_vsc.cpp",
+  "file": "/Users/gergohalmi/Desktop/git/cpp_cmake_p0/hello_vsc.cpp"
+}
+]
