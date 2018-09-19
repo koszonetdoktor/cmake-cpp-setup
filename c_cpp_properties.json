@@ -1,15 +1,15 @@
 {
     "configurations": [
-        {
-            "name": "Mac",
-            "includePath": [ //NOTE this is the place where I can add other input pathes
-                "/usr/include"
-            ],
-            "browse": {
-                "limitSymbolsToIncludedHeaders": true,
-                "databaseFilename": ""
-            }
-        }
+        // {
+        //     "name": "Mac",
+        //     "includePath": [ //NOTE this is the place where I can add other input pathes
+        //         "/usr/include"
+        //     ],
+        //     "browse": {
+        //         "limitSymbolsToIncludedHeaders": true,
+        //         "databaseFilename": ""
+        //     }
+        // }
         // {
         //     "name": "Linux",
         //     "includePath": ["/usr/include"],
@@ -18,13 +18,13 @@
         //         "databaseFilename" : ""
         //     }
         // },
-        // {
-        //     "name": "Win32",
-        //     "includePath": ["c:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include"],
-        //     "browse" : {
-        //         "limitSymbolsToIncludedHeaders" : true,
-        //         "databaseFilename" : ""
-        //     }
-        // }
+        {
+            "name": "Win32",
+            "includePath": ["C:/Program Files/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include"],
+            "browse" : {
+                "limitSymbolsToIncludedHeaders" : true,
+                "databaseFilename" : ""
+            }
+        }
     ]
 }

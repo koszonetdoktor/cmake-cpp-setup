@@ -19,7 +19,16 @@
         },
         {
             "label": "cmake",
-            "command": "cmake -G 'Unix Makefiles' -DCMAKE_BUILD_TYPE=Debug ..",
+            // "command": "cmake -G 'Unix Makefiles' -DCMAKE_BUILD_TYPE=Debug ..",
+            "command": "cmake -G 'Visual Studio 15 2017' -DCMAKE_BUILD_TYPE=Debug ..",
+            // "args": [
+            //     "-G \"Unix Makefiles\" -DCMAKE_BUILD_TYPE=Debug .."
+            // ]
+        },
+        {
+            "label": "cmake build",
+            // "command": "cmake -G 'Unix Makefiles' -DCMAKE_BUILD_TYPE=Debug ..",
+            "command": "cmake --build . --config Debug",
             // "args": [
             //     "-G \"Unix Makefiles\" -DCMAKE_BUILD_TYPE=Debug .."
             // ]

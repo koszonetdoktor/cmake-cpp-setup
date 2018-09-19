@@ -5,7 +5,7 @@
 
 ## Run it
 1. cmd + p -> Tasks: Run Task -> cmake
-2. cmd + p -> Tasks: Run Task -> make
+2. cmd + p -> Tasks: Run Task -> cmake build
 3. Can be run with
 #### Command line
 
@@ -14,7 +14,7 @@
 ```./hello_vsc```
 
 #### Debugger
-Run the debugger "(lldb) Launch" from the VS Code.
+Run the debugger "(Windows) Launch" from the VS Code.
 
 ## Ressources
 https://medium.com/audelabs/c-development-using-visual-studio-code-cmake-and-lldb-d0f13d38c563
@@ -25,3 +25,7 @@ http://preshing.com/20170511/how-to-build-a-cmake-based-project/
 
 (not sure I used that)
 http://osxdaily.com/2014/08/14/add-new-path-to-path-command-line/
+
+NOTES
+can also be used for build
+devenv /build Debug hello_vsc.sln
