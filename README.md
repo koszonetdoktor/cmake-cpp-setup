@@ -5,7 +5,7 @@
 
 ## Run it
 1. cmd + p -> Tasks: Run Task -> cmake
-2. cmd + p -> Tasks: Run Task -> cmake build
+2. cmd + p -> Tasks: Run Task -> cmake build Debug
 3. Can be run with
 #### Command line
 
