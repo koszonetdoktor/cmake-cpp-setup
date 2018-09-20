@@ -7,11 +7,8 @@
 1. cmd + p -> Tasks: Run Task -> cmake
 2. cmd + p -> Tasks: Run Task -> cmake build Debug
 3. Can be run with
-#### Command line
 
-```cd build```
-
-```./hello_vsc```
+With these tasks and exe file is created in the build/Debug folder. This exe can be run with either Debugger in VS Code or simply double click on it (old school windows way).
 
 #### Debugger
 Run the debugger "(Windows) Launch" from the VS Code.
@@ -26,6 +23,7 @@ http://preshing.com/20170511/how-to-build-a-cmake-based-project/
 (not sure I used that)
 http://osxdaily.com/2014/08/14/add-new-path-to-path-command-line/
 
-NOTES
-can also be used for build
-devenv /build Debug hello_vsc.sln
+#### NOTES
+The following command can also be used for build, but it is not used here.
+
+```devenv /build Debug hello_vsc.sln```
