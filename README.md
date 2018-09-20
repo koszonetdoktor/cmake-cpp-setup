@@ -1,3 +1,4 @@
+macOS version is on the branch *master*
 ## VS Code Plugin installs
 - C/C++ Miscrosoft  (ms-vscode.cpptools)
 - CMake Tools (vector-of-bool.cmake-tools)
